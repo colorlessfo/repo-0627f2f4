@@ -1,5 +1,13 @@
 # Windows 本机接入工具 v0.3
 
+## 智能应用控制拦截后的新版交付
+
+请下载 **Yuliang_Finance_v0.3_Source_Run.zip**。它只包含透明源码、依赖锁文件和说明，不含 `.cmd`、PowerShell、自解压启动器或自制 EXE。解压后阅读 `SOURCE_RUN.md`，使用官方 Node.js 24+ 正常运行。保持智能应用控制开启；若仍被拦截，停止，不解除阻止或改安全策略。
+
+源码模式未在此云环境中通过 Windows 原生允许验证，不是安全认证或保证。支付宝、交通银行、微信支付均仍处于真实接入验证阶段。
+
+下面的旧包仅保留历史；不要继续尝试运行其中被阻止的启动文件。
+
 本目录的 ZIP 包含可运行的本机诊断工具及其完整源码，不含真实账户数据或登录资料。
 
 在 GitHub 打开 ZIP 文件后，选择 Download raw file 下载，不需要预览 ZIP。解压后双击 Start_Windows_Probe.cmd。需要 Node.js 24+ 和 Microsoft Edge。
